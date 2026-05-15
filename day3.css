@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header {
+
+}
+
+
+.upper-part {
+    background-color: seagreen;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 0.5rem 2rem;
+
+}
+
+
+.upper-part-first{
+   display: flex;
+
+   align-items: center;
+
+   /* background-color: red; */
+
+   gap: 1rem;
+}
+
+
+.paragraph {
+
+}
+
+.upper-part-first p {
+    color: whitesmoke;
+}
+
+.upper-part-first p a {
+    text-decoration: none;
+
+    color: rgb(244, 250, 123);
+}
+
+
+.upper-part-first button {
+    background: none;
+    border: none;
+    background-color: rgb(244, 250, 123);
+
+    padding: 0.4rem;
+
+    border-radius: 1rem;
+}
+
+
+
+.forward-btn {
+    background: none;
+    border: none;
+    background-color: greenyellow;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}

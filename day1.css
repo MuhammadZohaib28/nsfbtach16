@@ -1,0 +1,28 @@
+* {
+    background-color: rgb(209, 209, 209);
+
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: red;
+}
+
+
+h2{
+    
+}
+
+
+h1 {
+    background-color: rgb(80, 234, 42);
+
+    margin: 100px 0 20px 0;
+
+    border: 6px outset rgb(10, 93, 227);
+
+
+    padding: 14px;
+}
