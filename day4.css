@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.registration-form {
+   
+    box-shadow: 3px 5px 30px black;
+    width: 60%;
+
+    margin: 0 auto;
+
+    padding: 2rem;
+
+    background-color: rgb(225, 239, 253);
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem   ;
+
+    border-radius: 1rem;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+input {
+    width: 50%;
+    padding: 0.3rem;
+
+    background: none;
+    background-color: rgb(249, 252, 255);
+
+    border: none;
+    border-radius: 0.2rem;
+
+    outline: none;
+}
+
+
+.password-input-container{
+    display: flex;
+}
+
+
+.gender-input-container {
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+
+.gender-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    background-color: rgb(36, 144, 245);
+
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+
+    border-radius: 0.4rem;
+
+    width: 50%;
+
+    margin: 0 auto;
+}
