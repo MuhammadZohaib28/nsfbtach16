@@ -60,7 +60,7 @@ console.log(age)
 
 let citizenAge = 19;
 
-if(citizenAge > 18) {
+if (citizenAge > 18) {
     console.log("YOU ARE ELIGIBLE FOR CNIC")
 } else {
     console.log("YOU ARE NOT ELIGIBLE FOR CNIC")
